@@ -1,0 +1,70 @@
+:root {
+    /* Configurações */
+    --version:'-ver: 4.8.7';
+    --nome_site: "--------";
+    --font_titulo: times;
+    --font_navbar: times;
+    --font_content: times;
+    --font_sidebar: times;
+    --font_footer: times;
+    --font_user: times;
+    --font-pc: cursive;
+    --font-cel: arial;
+    --scrollbar-width: calc(100vw - 100%);
+
+    /* Paleta de Cores Geral */
+
+
+    /* Paleta de Cores Detalhada */
+
+    --creme: rgb(255, 236, 198);
+    --chocolate:rgb(138, 92, 71);
+    
+    --cores_bg_tema_padrao: rgba(165, 42, 42, 0);
+    --cores_font_tema_padrao: rgb(255, 255, 255);    
+
+
+
+    
+    /* Paleta de Cores Geral */
+    --fundo_semitransparente_wrapper: rgba(255, 255, 255, 0.3);
+
+    --cores_content_padrao: rgb(255, 255, 255);
+    --cores_content_font: rgb(255, 255, 255);
+    --cores_content_bg_transp: rgba(255, 255, 255, 0.5);
+    --cores_geral_font_hover: rgb(0, 230, 0);
+    --cores_geral_div_hover: rgba(145, 145, 145, 0.616);
+    /* Paleta de Cores Detalhada */
+    --nav_a_bg: var(--cores_content_bg_transp);
+    --side_bar_text_color: var(--cores_content_padrao);
+    --side_bar_txtplaceh_color:rgba(0, 0, 0, 0.562);
+    --side_bar_submit_color: rgb(0, 0, 0);
+    --header_color: var(--cores_bg_tema_padrao);
+    --logo_color: var(--cores_font_tema_padrao);
+    --hamburger_color: var(--cores_font_tema_padrao);
+    --nav_font_color: var(--cores_font_tema_padrao);
+    --nav_font_color_hover: var(--cores_geral_font_hover);
+    --wrapper_color: var(--fundo_semitransparente_wrapper);
+    --content_color: var(--cores_content_padrao);
+    --aside_color: var(--cores_content_padrao);
+    --footer_color: var(--cores_bg_tema_padrao);
+    --footer_font_color: var(--cores_font_tema_padrao);
+    --nav_a_bg_hover: var(--cores_geral_div_hover);
+    --content_bg_color: var(--cores_content_bg_transp);
+    --side_bar_bg_color: var(--cores_content_bg_transp);
+    --social_media_bg_a: var(--cores_content_padrao);
+    --social_media_hover: rgb(207, 207, 207);
+    --social_media_a_color: var(--cores_content_font);
+    --artigo_bg_color: var(--cores_content_padrao);
+    --artigo_font_color: var(--cores_content_font);
+}
+
+@font-face {
+    font-family: cf-jungle;
+    src: url('cf_jungle.ttf');
+}
+
+@font-face {
+    font-family: quillsword;
+    src: url('quillsword.ttf');
+}
